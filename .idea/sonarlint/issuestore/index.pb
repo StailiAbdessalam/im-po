@@ -282,3 +282,6 @@ k
 ;public_html/assets/scss/vendors/bootstrap-4.3.1/_print.scss,6/d/6d83bdcfc661e16d403e995257c224e0382adfe3
 p
 @public_html/assets/scss/vendors/bootstrap-4.3.1/_pagination.scss,2/f/2f97517cf2f7814c07ed30d1bff799247756b54d
+:
+
+index.html,f/6/f6013a00b362253c64368d6eebc50ea2131754e2
