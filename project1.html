@@ -9,9 +9,14 @@
 <body>
 <section class="section">
     <div class="container">
-        <h6 class="section-title mb-6">Gestion de projet pour AMSOM Habitat</h6>
-        <div class="blog-card-body">
-            <p><strong>Client :</strong> AMSOM Habitat est un Office Public de l’Habitat (OPH) dont la collectivité de rattachement est le syndicat mixte de l’Habitat de la Somme.</p>
+        <h6 class="section-title mb-6" style="color: #a59cca">Gestion de projet pour AMSOM Habitat</h6>
+        <div class="project-details">
+            <div style="display: flex; flex-direction: column; gap:10px">
+                <img src="public_html/assets/imgs/project_1.png" alt="AMSOM Habitat Project Image" class="project-image">
+                <img src="public_html/assets/imgs/project_3.png" alt="AMSOM Habitat Project Image" class="project-image">
+                <img src="public_html/assets/imgs/amsom.png" alt="AMSOM Habitat Project Image" class="project-image">
+            </div>
+            <p><strong style="color:#a59cca ">Client :</strong> AMSOM Habitat est un Office Public de l’Habitat (OPH) dont la collectivité de rattachement est le syndicat mixte de l’Habitat de la Somme.</p>
 
             <h6>Problème du Client :</h6>
             <p>L'équipe d'Amsom Habitat rencontrait des difficultés à suivre et gérer efficacement leurs projets en raison de l'absence d'un outil centralisé. Les opérations manquaient de structure et les informations étaient souvent dispersées, ce qui entraînait des retards et des erreurs dans la gestion des tâches.</p>
@@ -60,9 +65,17 @@
 </body>
 </html>
 
-
 <style>
     /* General container and section styles */
+    body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        background-color: #f4f4f4;
+        margin: 0;
+        padding: 0;
+        color: #a59cca;
+    }
+
     .container {
         max-width: 1200px;
         margin: auto;
@@ -77,10 +90,12 @@
         font-size: 24px;
         font-weight: bold;
         margin-bottom: 20px;
+        color: #333;
     }
 
-    /* Blog card styles */
+    /* Project card styles */
     .blog-card {
+        background: #fff;
         border: 1px solid #ddd;
         border-radius: 5px;
         margin-bottom: 20px;
@@ -124,10 +139,11 @@
 
     /* Project details styles */
     .project-details {
-        background-color: #f9f9f9;
+        background-color: #fff;
         padding: 20px;
         border-radius: 5px;
         box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        margin-bottom: 20px;
     }
 
     .project-details h6 {
@@ -142,6 +158,7 @@
         font-size: 16px;
         line-height: 1.5;
         margin-bottom: 20px;
+        color: #555;
     }
 
     .project-details ul {
@@ -155,6 +172,13 @@
 
     .project-details strong {
         font-weight: bold;
+    }
+
+    .project-image {
+        width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+        border-radius: 5px;
     }
 
 </style>
