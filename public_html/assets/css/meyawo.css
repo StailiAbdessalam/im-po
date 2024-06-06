@@ -12239,3 +12239,109 @@ pre .code {
   padding: 100px 0 !important;
 }
 
+.resume-section {
+  padding: 20px 0;
+}
+.section-title {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.decor-line {
+  width: 50px;
+  height: 5px;
+  background-color: #000;
+  margin-bottom: 10px;
+}
+.name {
+  font-size: 1.25em;
+  font-weight: bold;
+  margin-top: 15px;
+}
+.date {
+  color: #666;
+  font-size: 0.9em;
+  margin-bottom: 10px;
+}
+.left, .right {
+  padding: 20px;
+}
+.summary, .education, .experience {
+  margin-bottom: 30px;
+}
+.summary ul, .education ul, .experience ul {
+  list-style-type: none;
+  padding: 0;
+}
+.summary li, .education li, .experience li {
+  margin-bottom: 10px;
+  text-transform: capitalize;
+}
+.resume-section {
+  padding: 20px 0;
+}
+
+.section-title {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.decor-line {
+  width: 50px;
+  height: 5px;
+  background-color: #000;
+  margin-bottom: 10px;
+}
+
+.name {
+  font-size: 1.25em;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+.date {
+  color: #666;
+  font-size: 0.9em;
+  margin-bottom: 10px;
+}
+
+.left, .right {
+  padding: 20px;
+}
+
+.summary, .education, .experience {
+  margin-bottom: 30px;
+}
+
+.summary ul, .education ul, .experience ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.summary li, .education li, .experience li {
+  margin-bottom: 10px;
+  text-transform: capitalize;
+  line-height: 1.5;
+}
+
+ul {
+  padding-left: 20px; /* Adjust as necessary */
+}
+
+li::before {
+  content: "•";
+  color: black; /* Adjust bullet color if necessary */
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
