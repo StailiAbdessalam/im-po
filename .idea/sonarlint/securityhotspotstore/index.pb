@@ -1,6 +1,4 @@
 
-F
-public_html/index.html,1/5/15c0e0b5c357b213c5d6acadd3b119a4da5c10b0
 Q
 !public_html/assets/css/meyawo.css,3/d/3d813836e5b637034496419d0dada853325b5ced
 S
@@ -74,8 +72,6 @@ n
 +public_html/assets/scss/layout/_header.scss,a/7/a78b11223ed9ce38217a9ef2cef50972b3fbc6ca
 Å
 Q.idea/sonarlint/securityhotspotstore/3/d/3d813836e5b637034496419d0dada853325b5ced,7/1/71c4319eba551352fbad81f841d17aa57feb4e66
-Å
-Q.idea/sonarlint/securityhotspotstore/1/5/15c0e0b5c357b213c5d6acadd3b119a4da5c10b0,0/8/08ae0382cecbcd085a86f177adf455a8f95b9486
 S
 #public_html/assets/scss/meyawo.scss,6/3/630a03ac48c5c17ab92af7c3db1b53eed3c403f7
 W

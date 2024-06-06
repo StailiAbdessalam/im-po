@@ -11405,6 +11405,7 @@ p {
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
+  flex-direction: column;
   text-align: left;
   border: 1px solid #dee2e6;
   margin-bottom: 30px;
@@ -11414,7 +11415,7 @@ p {
 
 .blog-card-header {
   min-width: 350px;
-  max-width: 350px;
+  max-width: 4000px;
 }
 
 .blog-card-img {
